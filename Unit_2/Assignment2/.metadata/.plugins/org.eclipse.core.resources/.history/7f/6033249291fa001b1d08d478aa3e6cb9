@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main (){
+
+	float array [3];
+	printf("Enter three numbers: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%f",&array[0]);
+	scanf("%f",&array[1]);
+	scanf("%f",&array[2]);
+
+	float max = array[0];
+	for(int i = 1; i < array.length();)
+	return 0;
+}

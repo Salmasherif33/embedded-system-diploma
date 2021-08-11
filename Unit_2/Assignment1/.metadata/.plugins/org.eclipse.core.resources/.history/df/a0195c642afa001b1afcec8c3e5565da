@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main (){
+	printf("##########Console-output###\n");
+
+	char input;
+	printf("Enter a character: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%c", &input);
+
+
+	printf("Product %d\n", input);
+
+	printf("###########################");
+
+	return 0;
+}

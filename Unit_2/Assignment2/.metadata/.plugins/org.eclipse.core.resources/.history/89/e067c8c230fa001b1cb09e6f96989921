@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main (){
+
+	int in;
+	printf("Enter an integer you want to check: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%d",&in);
+
+	return 0;
+}

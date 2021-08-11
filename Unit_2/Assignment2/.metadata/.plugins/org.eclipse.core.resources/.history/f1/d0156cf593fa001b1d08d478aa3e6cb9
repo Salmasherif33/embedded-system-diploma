@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main (){
+
+	char in;
+
+	printf("Enter a character: ");
+	fflush(stdout); fflush(stdin);
+
+	scanf("%c",&in);
+	return 0;
+}

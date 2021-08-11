@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main (){
+	printf("##########Console-output###\n");
+
+	float a,b;
+	printf("Enter value of a: \n");
+	fflush(stdout); fflush(stdin);
+	scanf("%f", &a);
+	printf("Enter value of b: \n");
+	scanf("%f", &a);
+
+
+	printf("ASCII Value of %c = %d\n",input, input);
+
+	printf("###########################");
+
+	return 0;
+}

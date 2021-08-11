@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main (){
+
+	char in;
+	printf("Enter an alphabet: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%c",&in);
+
+	switch(in){
+	case 'i':
+		printf("%c is a vowel.",in);
+		break;
+
+	case 'i':
+		printf("%c is a vowel.",in);
+		break;
+	case 'i':
+		printf("%c is a vowel.",in);
+		break;
+	case 'i':
+		printf("%c is a vowel.",in);
+		break;
+
+	case 'i':
+		printf("%c is a vowel.",in);
+		break;
+
+	}
+
+
+	return 0;
+}

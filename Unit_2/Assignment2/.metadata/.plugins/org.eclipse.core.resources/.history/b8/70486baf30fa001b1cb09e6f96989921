@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main (){
+
+printf("Enter an integer you want to check: ");
+fflush(stdout); fflush(stdin);
+	return 0;
+}

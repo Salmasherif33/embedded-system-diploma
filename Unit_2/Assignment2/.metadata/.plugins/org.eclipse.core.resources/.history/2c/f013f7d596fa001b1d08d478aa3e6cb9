@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main (){
+
+	char op;
+	float num1,num2;
+	printf("Enter perator either + or - or * or divide: ");
+	fflush(stdout); fflush(stdin);
+
+	scanf("%c",&op);
+
+	printf("Enter two operands: ");
+
+	return 0;
+}

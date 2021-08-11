@@ -1,0 +1,355 @@
+00:21:48 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -o EX4.exe mul_2_numbers.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+00:24:54 **** Rebuild of configuration Debug for project EX4 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o mul_2_numbers.o "..\\mul_2_numbers.c" 
+..\mul_2_numbers.c: In function 'main':
+..\mul_2_numbers.c:12:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("Product %d\n", input1*input2);
+                  ~^     ~~~~~~~~~~~~~
+                  %f
+..\mul_2_numbers.c:12:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("Product %d\n", input1*input2);
+                  ~^     ~~~~~~~~~~~~~
+                  %f
+gcc -o EX4.exe mul_2_numbers.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+00:25:09 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o mul_2_numbers.o "..\\mul_2_numbers.c" 
+gcc -o EX4.exe mul_2_numbers.o 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+00:28:44 **** Rebuild of configuration Debug for project EX5 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ascii_of_char.o "..\\ascii_of_char.c" 
+gcc -o EX5.exe ascii_of_char.o 
+Info: Nothing to build for EX5
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+00:29:18 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ascii_of_char.o "..\\ascii_of_char.c" 
+gcc -o EX5.exe ascii_of_char.o 
+Info: Nothing to build for EX5
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+00:29:32 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ascii_of_char.o "..\\ascii_of_char.c" 
+gcc -o EX5.exe ascii_of_char.o 
+Info: Nothing to build for EX5
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+00:29:48 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ascii_of_char.o "..\\ascii_of_char.c" 
+gcc -o EX5.exe ascii_of_char.o 
+Info: Nothing to build for EX5
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+00:34:41 **** Rebuild of configuration Debug for project EX6 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_2_numbers.o "..\\swap_2_numbers.c" 
+..\swap_2_numbers.c: In function 'main':
+..\swap_2_numbers.c:15:4: warning: 'b' is used uninitialized in this function [-Wuninitialized]
+  a = b;
+  ~~^~~
+gcc -o EX6.exe swap_2_numbers.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+00:34:53 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_2_numbers.o "..\\swap_2_numbers.c" 
+gcc -o EX6.exe swap_2_numbers.o 
+Info: Nothing to build for EX6
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+00:35:37 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_2_numbers.o "..\\swap_2_numbers.c" 
+gcc -o EX6.exe swap_2_numbers.o 
+Info: Nothing to build for EX6
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+00:36:33 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_2_numbers.o "..\\swap_2_numbers.c" 
+..\swap_2_numbers.c: In function 'main':
+..\swap_2_numbers.c:9:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+  scanf("%f", &a);
+         ~^   ~~
+..\swap_2_numbers.c:9:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+..\swap_2_numbers.c:12:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+  scanf("%f", &b);
+         ~^   ~~
+..\swap_2_numbers.c:12:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+..\swap_2_numbers.c:15:4: error: incompatible types when assigning to type 'float *' from type 'float'
+  a = *b;
+    ^
+..\swap_2_numbers.c:16:4: error: incompatible types when assigning to type 'float *' from type 'float'
+  b = *a;
+    ^
+..\swap_2_numbers.c:19:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  printf("After swapping,value of a = %0.2f\n",a);
+                                      ~~~~^    ~
+..\swap_2_numbers.c:19:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+..\swap_2_numbers.c:20:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  printf("After swapping,value of b = %0.2f\n",b);
+                                      ~~~~^    ~
+..\swap_2_numbers.c:20:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+00:37:32 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_2_numbers.o "..\\swap_2_numbers.c" 
+..\swap_2_numbers.c: In function 'main':
+..\swap_2_numbers.c:20:44: error: expected expression before ')' token
+  printf("After swapping,value of b = %f\n",);
+                                            ^
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+00:37:39 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_2_numbers.o "..\\swap_2_numbers.c" 
+..\swap_2_numbers.c: In function 'main':
+..\swap_2_numbers.c:15:4: warning: 'b' is used uninitialized in this function [-Wuninitialized]
+  a = b;
+  ~~^~~
+gcc -o EX6.exe swap_2_numbers.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+00:40:26 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_2_numbers.o "..\\swap_2_numbers.c" 
+gcc -o EX6.exe swap_2_numbers.o 
+Info: Nothing to build for EX6
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+00:43:44 **** Rebuild of configuration Debug for project EX7 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_without_temp.o "..\\swap_without_temp.c" 
+..\swap_without_temp.c: In function 'main':
+..\swap_without_temp.c:9:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+  scanf("%f", &a);
+         ~^   ~~
+..\swap_without_temp.c:9:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+..\swap_without_temp.c:12:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+  scanf("%f", &b);
+         ~^   ~~
+..\swap_without_temp.c:12:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+..\swap_without_temp.c:15:4: error: incompatible types when assigning to type 'float *' from type 'float'
+  a = *b;
+    ^
+..\swap_without_temp.c:21:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  printf("After swapping,value of a = %0.2f\n",a);
+                                      ~~~~^    ~
+..\swap_without_temp.c:21:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+..\swap_without_temp.c:22:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  printf("After swapping,value of b = %0.2f\n",b);
+                                      ~~~~^    ~
+..\swap_without_temp.c:22:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+00:46:24 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_without_temp.o "..\\swap_without_temp.c" 
+..\swap_without_temp.c: In function 'main':
+..\swap_without_temp.c:9:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+  scanf("%f", &a);
+         ~^   ~~
+..\swap_without_temp.c:9:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+..\swap_without_temp.c:12:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+  scanf("%f", &b);
+         ~^   ~~
+..\swap_without_temp.c:12:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+..\swap_without_temp.c:21:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  printf("After swapping,value of a = %0.2f\n",a);
+                                      ~~~~^    ~
+..\swap_without_temp.c:21:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+..\swap_without_temp.c:22:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  printf("After swapping,value of b = %0.2f\n",b);
+                                      ~~~~^    ~
+..\swap_without_temp.c:22:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+gcc -o EX7.exe swap_without_temp.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+00:46:48 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_without_temp.o "..\\swap_without_temp.c" 
+..\swap_without_temp.c: In function 'main':
+..\swap_without_temp.c:21:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  printf("After swapping,value of a = %0.2f\n",a);
+                                      ~~~~^    ~
+..\swap_without_temp.c:21:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+..\swap_without_temp.c:22:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  printf("After swapping,value of b = %0.2f\n",b);
+                                      ~~~~^    ~
+..\swap_without_temp.c:22:42: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+..\swap_without_temp.c:9:2: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  scanf("%f", a);
+  ^~~~~~~~~~~~~~
+..\swap_without_temp.c:12:2: warning: 'b' is used uninitialized in this function [-Wuninitialized]
+  scanf("%f", b);
+  ^~~~~~~~~~~~~~
+gcc -o EX7.exe swap_without_temp.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+00:47:05 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_without_temp.o "..\\swap_without_temp.c" 
+..\swap_without_temp.c: In function 'main':
+..\swap_without_temp.c:9:2: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  scanf("%f", a);
+  ^~~~~~~~~~~~~~
+..\swap_without_temp.c:12:2: warning: 'b' is used uninitialized in this function [-Wuninitialized]
+  scanf("%f", b);
+  ^~~~~~~~~~~~~~
+gcc -o EX7.exe swap_without_temp.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+00:47:18 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_without_temp.o "..\\swap_without_temp.c" 
+..\swap_without_temp.c: In function 'main':
+..\swap_without_temp.c:9:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+  scanf("%f", &a);
+         ~^   ~~
+..\swap_without_temp.c:9:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+..\swap_without_temp.c:12:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+  scanf("%f", &b);
+         ~^   ~~
+..\swap_without_temp.c:12:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float **' [-Wformat=]
+gcc -o EX7.exe swap_without_temp.o 
+00:47:23 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_without_temp.o "..\\swap_without_temp.c" 
+..\swap_without_temp.c: In function 'main':
+..\swap_without_temp.c:9:2: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  scanf("%f", a);
+  ^~~~~~~~~~~~~~
+..\swap_without_temp.c:12:2: warning: 'b' is used uninitialized in this function [-Wuninitialized]
+  scanf("%f", b);
+  ^~~~~~~~~~~~~~
+gcc -o EX7.exe swap_without_temp.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+Info: Nothing to build for EX7
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+Info: Nothing to build for EX7
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+01:06:57 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_without_temp.o "..\\swap_without_temp.c" 
+..\swap_without_temp.c: In function 'main':
+..\swap_without_temp.c:21:47: error: invalid type argument of unary '*' (have 'float')
+  printf("After swapping,value of a = %0.2f\n",*a);
+                                               ^~
+..\swap_without_temp.c:22:47: error: invalid type argument of unary '*' (have 'float')
+  printf("After swapping,value of b = %0.2f\n",*b);
+                                               ^~
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+01:07:04 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_without_temp.o "..\\swap_without_temp.c" 
+gcc -o EX7.exe swap_without_temp.o 
+Info: Nothing to build for EX7

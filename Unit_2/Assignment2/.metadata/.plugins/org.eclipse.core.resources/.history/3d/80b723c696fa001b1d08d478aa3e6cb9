@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main (){
+
+	char op;
+
+	printf("Enter perator either + or - or * or divide: ");
+	fflush(stdout); fflush(stdin);
+
+	scanf("%c",&op);
+
+	return 0;
+}

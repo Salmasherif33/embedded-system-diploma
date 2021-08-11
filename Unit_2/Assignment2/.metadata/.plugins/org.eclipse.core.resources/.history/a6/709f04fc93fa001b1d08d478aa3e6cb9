@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main (){
+
+	int in;
+
+	printf("Enter an integer: ");
+	fflush(stdout); fflush(stdin);
+
+	scanf("%d",&in);
+	return 0;
+}

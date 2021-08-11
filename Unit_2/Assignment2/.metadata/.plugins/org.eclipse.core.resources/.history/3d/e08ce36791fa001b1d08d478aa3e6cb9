@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main (){
+
+	float array [3];
+	printf("Enter three numbers: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%f",&array[0]);
+	return 0;
+}

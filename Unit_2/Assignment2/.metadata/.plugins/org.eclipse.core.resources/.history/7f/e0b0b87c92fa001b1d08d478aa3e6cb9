@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main (){
+
+	printf("Enter a number: ");
+	fflush(stdout); fflush(stdin);
+	return 0;
+}

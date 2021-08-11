@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main (){
+
+	int in;
+
+	printf("Enter an integer: ");
+	fflush(stdout); fflush(stdin);
+
+	scanf("%d",&in);
+
+	int fact = 1;
+
+	if(in == 0)
+		printf("Factorial = %d", 1);
+	else if(in < 0)
+		printf("Error!!! Factorial of negative number doesn't exist");
+	return 0;
+}

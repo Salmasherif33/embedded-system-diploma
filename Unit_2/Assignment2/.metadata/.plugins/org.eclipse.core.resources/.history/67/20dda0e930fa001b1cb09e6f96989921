@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main (){
+
+	int in;
+	printf("Enter an integer you want to check: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%d",&in);
+
+	if(in %2 == 0)
+		printf("\r\n%d is even", in);
+	else
+		printf("\r\n%d is odd", in);
+
+
+	return 0;
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main (){
+
+	char in;
+
+	printf("Enter a character: ");
+	fflush(stdout); fflush(stdin);
+
+	scanf("%f",&in);
+
+	if(isalpha(in))
+		printf("%c is an alphabet", in);
+	else
+		printf("%c is not an alphabet", in);
+	return 0;
+}

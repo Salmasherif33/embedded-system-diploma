@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main (){
+
+	float in;
+
+	printf("Enter a number: ");
+	fflush(stdout); fflush(stdin);
+
+	scanf("%f",&in);
+	return 0;
+}

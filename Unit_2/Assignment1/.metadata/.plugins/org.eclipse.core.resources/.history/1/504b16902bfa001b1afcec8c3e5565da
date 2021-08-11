@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main (){
+	printf("##########Console-output###\n");
+
+	float a,b;
+	printf("Enter value of a: \n");
+	fflush(stdout); fflush(stdin);
+	scanf("%f", &a);
+	printf("Enter value of b: \n");
+	fflush(stdout); fflush(stdin);
+	scanf("%f", &a);
+
+	float temp = a;
+	a = b;
+	b = temp;
+
+
+	printf("After swapping,value of a = %f\n",a);
+	printf("After swapping,value of b = %f\n",);
+
+	printf("###########################");
+
+	return 0;
+}
