@@ -1,0 +1,50 @@
+///////////////////////////////////////
+Symbols for each object file 
+//////////////////////////////////////
+
+***********main.o*****************
+ arm-none-eabi-nm.exe main.o
+00000000 R c_var
+00000000 T main
+00000000 D R_ODR
+00000004 D var
+
+
+********startup.o*****************
+ arm-none-eabi-nm.exe startup.o
+         U _E_bss
+         U _E_DATA
+         U _E_text
+         U _S_bss
+         U _S_DATA
+         U _stack_top
+00000030 T Bus_Fault
+00000000 T Default_Handler
+00000018 T H_fault_Handler
+         U main
+00000024 T MM_Fault_Handler
+0000000c T NMI_Handler
+00000048 T Reset_Handler
+0000003c T Usage_Fault_Handler
+00000000 D vectors
+
+********learn-in-depth.elf*****************
+ arm-none-eabi-nm.exe learn-in-depth.elf
+20000008 B _E_bss
+20000007 D _E_DATA
+08000167 T _E_text
+20000008 B _S_bss
+20000000 D _S_DATA
+20001008 B _stack_top
+080000c8 T Bus_Fault
+08000164 T c_var
+08000098 T Default_Handler
+080000b0 T H_fault_Handler
+0800001c T main
+080000bc T MM_Fault_Handler
+080000a4 T NMI_Handler
+20000000 D R_ODR
+080000e0 T Reset_Handler
+080000d4 T Usage_Fault_Handler
+20000004 D var
+08000000 T vectors
