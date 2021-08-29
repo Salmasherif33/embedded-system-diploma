@@ -21,19 +21,14 @@ void Default_Handler(void){
 	
 }
 
-void NMI_Handler(void) {
+void NMI_Handler(void)  __attribute__((weak,alias("Default_Handler")));
+void H_fault_Handler() __attribute__((weak,alias("Default_Handler")));
+void MM_Fault_Handler() __attribute__((weak,alias("Default_Handler")));
 	
-}
+void Bus_Fault(void) __attribute__((weak,alias("Default_Handler")));
 	
-void H_fault_Handler(void) {
-	
-}
+void Usage_Fault_Handler()__attribute__((weak,alias("Default_Handler")));
 
-void MM_Fault_Handler(void) {}
-	
-void Bus_Fault(void) {}
-	
-void Usage_Fault_Handler(void) {}
 	
 
 

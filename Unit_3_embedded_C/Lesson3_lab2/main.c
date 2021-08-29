@@ -21,7 +21,8 @@ typedef volatile unsigned int vuint32_t;
 #define GPIOA_ODR    *(volatile uint32_t *) (PortA_BASE + 0x0C)
 
 //bit fileds
-
+unsigned char arr[3] = {1,2,3};
+unsigned char const arr2[3] = {2,4,3};
 
 typedef union{
 	vuint32_t all_fields; //32bits
@@ -32,8 +33,7 @@ typedef union{
 }R_ODR_t;
 
 volatile R_ODR_t* R_ODR = (volatile R_ODR_t*)(PortA_BASE + 0x0C);
-unsigned char var[3] = {1,2,3};
-unsigned char const c_var[3] = {1,2,3};
+
 
 int main(void)
 {
