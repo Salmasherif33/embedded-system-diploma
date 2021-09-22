@@ -97,7 +97,7 @@ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t *PinConfig)
 {
 	volatile uint32_t *ConfigRegister = NULL;
 	uint32_t Pin = 0;
-	ConfigRegister = (PinConfig->GPIO_PinNumber < 8) ? &GPIOx->CRL: &GPIOx->CRH;
+	ConfigRegister = (PinConfig->GPIO_PinNumber < GPIO_PIN_8) ? &GPIOx->CRL: &GPIOx->CRH;
 
 	//clear CNF[1:0], MODE[1:0]
 	(*ConfigRegister) &= ~(0x0F << GET_CRLH_Position(PinConfig->GPIO_PinNumber));
